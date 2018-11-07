@@ -12,14 +12,14 @@
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.85]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -27,13 +27,11 @@
 
 % personal data
 \name{Gaurav}{Rao}
-\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
-\address{my address, line 1, line 2, line 3, postcode}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+44 12345 12345}                   % optional, remove / comment the line if not wanted
-\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+\title{Resume}                               % optional, remove / comment the line if not wanted
+\phone[mobile]{813 340 0594}                   % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{myname@hotmail.co.uk}                               % optional, remove / comment the line if not wanted
-\homepage{www.myname.webs.com}                         % optional, remove / comment the line if not wanted
+\email{gaurav.rao@berkeley.edu}                               % optional, remove / comment the line if not wanted
+\homepage{www.gauravity.com}                         % optional, remove / comment the line if not wanted
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
@@ -55,7 +53,7 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{Undergraduate electrical and electronic engineer completing the final year of a master's degree. Passionate about science, with strong technical, business, and interpersonal skills for working in a team and successfully completing a project.}
+\small{Undergraduate Computer Science/Mathematics Major passionate about applying mathematics in novel ways to create innovative products, especially with understanding freeform data and applications to education.}
 
 \section{Previous Employment}
 
@@ -63,15 +61,22 @@
 
 \begin{itemize}
 
-\item{\cventry{July 2013--August 2013}{Construction Site Operative}{Eurogold Groundworks and Civil Engineering}{Moston}{}{\vspace{3pt}I was responsible for the administrative duties and the tidiness and general order of the site. I worked in a safety-oriented manner, often working alongside construction plant and machinery. At the end of my work with the company my colleagues praised my work ethic.}}
+\item{\cventry{June 2018--August 2018}{Engineering Intern}{Laserlike Inc}{Mountain View, CA}{}{\vspace{3pt}
+\begin{itemize}
+\item Used Golang to predict user interests and schedule notifications for reengagement and improve daily active user rate
+\item Deployed and orchestrated microservices and reverse proxy endpoints using kubernetes/docker
+\item Created interactive online debug tools to benchmark image suggestions and real time notification sending using golang.
+\item Used hyperbolic geometry for word/concept embeddings to improve machine learning article suggestion model
+\item Improved word disambiguation system for processing internet articles
+\end{itemize}
+}}
+\vspace{6pt}
+
+\item{\cventry{2017}{Undergraduate Researcher}{Berkeley Institute of Data Science}{Berkeley, CA}{}{\vspace{3pt}I worked under an ecology researcher using predictive models such as reccurent neural networks and ridge regression to analyze soil greenhouse gas emissions in puerto rical soil.}}
 
 \vspace{6pt}
 
-\item{\cventry{2009--2011}{Waiter, Catering and Banqueting}{Lavender Best Western Park Hall Hotel}{Charnock Richard}{}{\vspace{3pt}I worked for three years as a team leader providing silver service at weddings, stag/hen nights, and business conferences. I was often trusted with other jobs such as setting up conference rooms, moving beds around the hotel, and guiding big groups of customers to their rooms. As a team leader I would delegate tasks to a team of about 5 people, often new staff who needed training, and lead the group to service. During this time I worked in a highly professional manner and was focused to provide excellent customer service, even during high stress functions and events.}}
-
-\vspace{6pt}
-
-\item{\cventry{January 2008}{Assistant Electrician}{Ryan Electricals}{Southport}{}{\vspace{3pt}I spent a week working as an assistant electrician as part of my high school work experience. My roles included wiring plugs, tidying, and assisting with household electrical repairs and fittings.}}
+\item{\cventry{2017-2018}{Math Tutor}{Student Learning Center}{Berkeley, CA}{}{\vspace{3pt}Improved student learning outcomes by tutoring Berkeley students calculus, linear algebra, and discrete mathematics.}}
 
 \end{itemize}
 
@@ -85,44 +90,34 @@
 
 \begin{itemize}
 
-\item{\cventry{2011--2015}{Meng (Hons) Electrical and Electronic Engineering }{Lancaster University}{Lancaster}{\textit{Predicted First Class}}{}}
+\item{\cventry{2017--2020}{BA Computer Science and Mathematics}{University of California, Berkeley}{Berkeley, CA}{\textit{4.0 CS GPA 30 Putnam Score}}{\textit{Coursework:} Probability Theory and Random Processes, Data Structures, Machine Structures, Algorithms, Real Analysis, Abstract Algebra, Algebraic Geometry}}
 
-\item{\cventry{2009--2011}{A levels}{Runshaw College}{Leyland}{\textit{ICT (A) Physics (B) Maths (B)}}{}}  % arguments 3 to 6 can be left empty
+\item{\cventry{2013--2017}{IB, AP}{Hillsborough High School}{Tampa, FL}{\textit{7.2 GPA}}{}}  % arguments 3 to 6 can be left empty
 
-\item{\cventry{2002--2009}{11 GCSEs}{Southlands High School}{Chorley}{\textit{A* to B Including Maths and English}}{}}
 
 \end{itemize}
 
 \vspace{2pt}
 
-\subsection{Notable Projects}
+\subsection{Projects}
 
 \vspace{5pt}
 
 \begin{itemize}
 
-\item{\textbf{Masters Project (Ongoing):} \textit{'Development of an Intelligent Humanoid Robot'}
+\item{\textbf{Calhacks:} \textit{'Machine learning choose your own adventure generator'}
 
 \vspace{3pt}
 
-\small{I am part of a team developing a 5ft autonomous humanoid robot. This ambitious project requires strong team-working skills and high technical ability. I work well as part of the team, contributing in group discussions and taking initiative to set myself tasks when the next stage of the project is not clear. Given the role of electronics supervisor I am responsible for setting goals and ensuring all the electronic system designs are realised on time and meet the specifications of the project.}}
+\small{Used a GAN to generate visuals and a Character RNN to create a random choose your own adventure game}}
 
-\newpage
-
-\item{\textbf{3rd year individual project:} \textit{'Artificial Neural Network Approach to Source Localisation in Radiation Portal Monitoring'}
+\item{\textbf{Developer Camp Best Education Hack:} \textit{'Splash Game'}
 
 \vspace{3pt}
 
-\small{This challenging project took place over the entirety of my third year. It required excellent planning and organisational skills, and the ability to teach myself an entirely new and complex subject. The project was a success, with the system being able to localise a radioactive source down to $ 3 cm$ within a $ 600 m^3$ sensor array. This project has been suggested for publication by my supervisor.}}
+\small{Used Pixi Library to create a Javascript infinite runner game to teach children about the water cycle and the importance of conservation}}
 
 \vspace{6pt}
-
-\item{\textbf{Industrial Project with Leyland Motors Ltd:}\textit{'Development of a Facility to Ensure the Achievement of Torque Parameters for a Specific Axle Configuration'}
-
-\vspace{3pt}
-
-\small{In the 3rd year of my course I spent a week completing an industrial project for Leyland Motors. I worked with a team operating as consultants for a particular problem the company was having. During this project I was working in a professional environment, and co-operating with various managers and engineers to create a design that met the requirements of the problem.}}
-
 \end{itemize}
 
 \section{Technical and Personal skills}
@@ -131,49 +126,14 @@
 
 \begin{itemize}
 
-\item \textbf{Programming Languages:} Proficient in: C, C++, Python, Matlab, Arduino, TeX \\ Also basic ability with: Assembly, VBA, VHDL.
+\item \textbf{Programming Languages:} Proficient in: C, Python, TeX, Java, Golang, Javascript, React, SQL \\ Also basic ability with: RISC V Assembly, CSS.
 
 \vspace{6pt}
 
-\item \textbf{Industry Software Skills:} SolidWorks (Advanced), Matlab (Advanced), Ansys (Intermediate),  LTspice (Intermediate), Most MS Office products including MS project and MS access (Advanced).
-
-\vspace{6pt}
-
-\item \textbf{General Business Skills:} Good presentation skills, Works well in a team.
-
-\vspace{6pt}
-
-\item \textbf{Other:} Good soldering and spot welding skills, Can write well organised and structured reports.
+\item \textbf{Other:} Good soldering skills, can play piano, guitar, and ukulele. I can deploy a website using Digital Ocean/Other cloud platforms and docker.
 
 \end{itemize}
 
-\section{Interests and extra-curricular activity}
-
-\vspace{6pt}
-
-\begin{itemize}
-
-\item{I was a "fresher representative" in my 2nd and 3rd years of university, this required me to guide, look after, and ensure that a particular flat of first years have a good time in their first week, and feel consoled in what for most of them is there first time living away from home. We were responsible for the safety and wellbeing of the group of first years during the first week, and during this time I made good friends with all of them.}
-
-\vspace{6pt}
-
-\item{I am a member of a number of university societies. I was also the vice president and co-founder of the flash mob society. My roles in this included recruiting members, in which during "fresher's fair" we enlisted over 200 new members. This was regarded as very successful, considering other societies averaged around 50. I also appeared in an interview on the university television station, set up a society bank account, and helped organise the events. One of these events was featured in the local newspaper.}
-
-\vspace{6pt}
-
-\item{I am also an avid hiker, having completed the national 3 peaks challenge last summer. Other interest include guitar, which I am self-taught, and home brewing.}
-
-\end{itemize}
-
-\section{References}
-
-\vspace{6pt}
- 
-\begin{itemize}
-
-\item{Up to 4 references available on request}
-
-\end{itemize}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
